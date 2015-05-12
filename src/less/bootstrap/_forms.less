@@ -1,0 +1,12 @@
+@import "@{bootstrap}/forms.less";
+
+// 選択肢が複数行にわたってもレイアウトが崩れないようにする
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.radio-inline:first-child,
+.checkbox-inline:first-child {
+  margin-right: 10px;
+}
